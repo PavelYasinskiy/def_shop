@@ -1,0 +1,10 @@
+version: '3.11'
+services:
+  def_bot:
+    build: .
+    image: pavelyasinskiy/def-bot
+    environment:
+      - TOKEN
+    command: python main.py
+    ports:
+      - 80:80

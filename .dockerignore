@@ -1,0 +1,9 @@
+# Git
+.git
+.gitignore
+
+# Python
+keyboards/__pycache__/
+data_base/__pycache__/
+
+
